@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+<body>
+<h3>screenbutton</h3>
+
+<p>This character style indicates a thing to be clicked: a button, a menu heading or menu item, a tab, or a choice in a list.</p>
+
+<p>Apply this style to text that appears on an object on the screen (like <strong class="label label-info">Next</strong> or <strong class="label label-info">OK</strong>), not to the action you take (like select or click).</p>
+
+<p>Do not include the ellipsis when naming a button or menu item. Say Click <strong class="label label-info">Add</strong>, not Click <strong class="label label-info">Add...</strong></p>
+
+<p>If the thing that gets clicked has no text (for example, an arrow), use an image of the thing inline or near the mention of the thing. Apply the screenbutton style to any text reference to the thing (for example, telling the user to click on the arrow to continue): &ldquo;Click the <strong class="label label-info">large red arrow</strong>.&rdquo;</p>
+
+<p>Do not apply this style to descriptions as in this phrase: &ldquo;highlight the person&rsquo;s name.&rdquo;</p>
+
+<h3><span class="screentitle">screentitle</span></h3>
+
+<p>This character style indicates a window title, dialog box name, column heading, label in the dialog box or window, or any words that serve as identifiers or markers. For example, &ldquo;In the <strong class="text-info">Options</strong> dialog box, in the <strong class="text-info">Color</strong> section, select <strong class="label label-info">Red</strong>.&rdquo; Note that the words &ldquo;dialog box&rdquo; (or &ldquo;window&rdquo; or &ldquo;column heading&rdquo;) do not have the style applied.</p>
+
+<p>Do not apply this style to actions (like right-click or drag).</p>
+
+<p>Some items are clickable but not clicked in the current setting. Use the style that fits the context. For example, &quot;In the <strong class="text-info">Last Name</strong> column, highlight the person&rsquo;s name,&quot; but &ldquo;click <strong class="label label-info">Last Name</strong> to sort the table by that column.&rdquo;</p>
+
+<h3>typeditem</h3>
+
+<p>This character style indicates words (or numbers) that the user will type in. For example, &ldquo;For <strong class="text-info">Port</strong> enter <code class="text-muted">1058</code>.&rdquo;</p>
+
+<p>Text appearing in this style should appear exactly as we expect the user to type it. Do not put the styled text in quotes. The style itself indicates the beginning and end of the text to be entered. Where feasible (and especially when the text to be entered is more than a few characters), place the text to be entered on a separate line, all by itself. For example,</p>
+
+<ol>
+	<li>For <span class="screentitle"><strong class="text-info">User ID</strong></span>, enter<br />
+	<code class="text-muted">cornell\<strong>netid</strong>@cornell.edu\</code></li>
+</ol>
+
+<p>Do not use this style when referring to the field name. For example, do not use this style anywhere in this sentence: &quot;Type your NetID and password into the boxes.&quot;</p>
+
+<p>However, if the typed item includes a placeholder (for example, <strong>netid</strong>@cornell.edu), use the typeditem style, and emphasize the placeholder with bold.</p>
+
+<p>Wherever possible, do not break this text across lines or pages.</p>
+
+<p>Paths and filenames use this style, even if they&rsquo;re entered through browsing rather than actual typing.</p>
+
+<h3>warning-box</h3>
+
+<div class="alert alert-warning" role="alert"><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span><span class="sr-only">Warning:</span> warning</div>
+
+<p>Used to convey information that will steer our users away from a mistake. The fact that we use the style makes the information important. Do not use &quot;Important&quot; or &quot;Note&quot; or &quot;Warning&quot; or anything else as a header or introduction to the text in the box.</p>
+
+<h3>tip</h3>
+
+<div class="alert alert-info" role="alert"><span aria-hidden="true" class="glyphicon glyphicon-info-sign"></span><span class="sr-only">Note:</span> info</div>
+
+<p>Used to make a recommendation, especially where we&#39;ve given people choices or left a decision up to them. The fact that we use the style makes the information a tip. Do not use &quot;Important&quot; or &quot;Note&quot; or &quot;Tip&quot; or anything else as a header or introduction to the text in the box.</p>
+
+<h3>note</h3>
+
+<div class="panel panel-default">
+<div class="panel-body">note</div>
+</div>
+
+<p>Other emphasis; exact usage still being determined. Use sparingly, perhaps&nbsp;when an article is already littered with the other emphasis styles.</p>
+</body>
+</html>
